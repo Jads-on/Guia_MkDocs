@@ -13,6 +13,10 @@
       
       
       
+        <link rel="prev" href="../instalacao/">
+      
+      
+        <link rel="next" href="../hospedagem_github_pages/">
       
       
         
@@ -23,7 +27,7 @@
     
     
       
-        <title>Estruturando projeto - Guia MkDocs</title>
+        <title>Estruturando Projeto - Guia MkDocs</title>
       
     
     
@@ -100,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Estruturando projeto
+              Estruturando Projeto
             
           </span>
         </div>
@@ -247,10 +251,35 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../estruturando.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Estruturando Projeto
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -266,6 +295,46 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#criando-e-estruturando-um-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criando e estruturando um projeto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adicionando-paginas-e-configurando-a-navegacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adicionando páginas e configurando a navegação
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -414,7 +483,7 @@
 
 
 
-  <h1>Estruturando projeto</h1>
+  <h1>Estruturando Projeto</h1>
 
 <h2 id="criando-e-estruturando-um-projeto">Criando e estruturando um projeto</h2>
 <p>&emsp; Criando um novo projeto via linha de comando:</p>
@@ -427,17 +496,6 @@ cd meu-projeto
 └── docs/         &lt;-- Pasta com os arquivos de conteúdo (Markdown)
     └── index.md  &lt;-- Página inicial da documentação
 </code></pre>
-<p>&emsp; Iniciando o servidor de desenvolvimento local:</p>
-<pre><code>mkdocs serve
-</code></pre>
-<p>&emsp; Saída esperada no terminal:</p>
-<pre><code>INFO    -  Building documentation...
-INFO    -  Cleaning site directory
-INFO    -  Documentation built in 0.22 seconds
-INFO    -  [15:50:43] Watching paths for changes: 'docs', 'mkdocs.yml'
-INFO    -  [15:50:43] Serving on http://127.0.0.1:8000/
-</code></pre>
-<p>&emsp; Acessando o site localmente, basta abrir no navegador o endereço <code>http://127.0.0.1:8000/</code>. Qualquer alteração salva nos arquivos da pasta <code>docs/</code> ou no <code>mkdocs.yml</code> recarregará a página automaticamente no navegador (Live Reload).</p>
 <h2 id="adicionando-paginas-e-configurando-a-navegacao">Adicionando páginas e configurando a navegação</h2>
 <p>&emsp; Para criar novos arquivos de conteúdo, basta adicionar arquivos com extensão <code>.md</code> dentro da pasta <code>docs/</code>. Exemplo: <code>docs/about.md</code> (Página Sobre).</p>
 <p>&emsp; Configurando o arquivo <code>mkdocs.yml</code> para ativar o tema Material e definir o menu de navegação (<code>nav</code>):</p>
@@ -458,6 +516,17 @@ nav:
 <li>Botões de Navegação Sequencial: links para "Anterior" (Previous) e "Próximo" (Next)</li>
 <li>Busca Interna Automatizada: campo de pesquisa funcional que indexa todo o texto do site sem necessidade de configuração adicional</li>
 </ol>
+<p>&emsp; Iniciando o servidor de desenvolvimento local:</p>
+<pre><code>mkdocs serve
+</code></pre>
+<p>&emsp; Saída esperada no terminal:</p>
+<pre><code>INFO    -  Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Documentation built in 0.22 seconds
+INFO    -  [15:50:43] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO    -  [15:50:43] Serving on http://127.0.0.1:8000/
+</code></pre>
+<p>&emsp; Acessando o site localmente, basta abrir no navegador o endereço <code>http://127.0.0.1:8000/</code>. Qualquer alteração salva nos arquivos da pasta <code>docs/</code> ou no <code>mkdocs.yml</code> recarregará a página automaticamente no navegador (Live Reload).</p>
 
 
 
