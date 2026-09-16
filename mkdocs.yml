@@ -10,7 +10,7 @@ theme:
 nav:
   - Início: index.md
   - Instalação: instalacao.md
-  - Estruturando Projeto: estruturando.md
+  - Estruturando Projeto: estruturando_projeto.md
   - Hospedagem e Github Pages: hospedagem_github_pages.md
   - Como hospedar com o Github Pages?: como_hospedar.md
   - FAQ: faq.md

@@ -13,22 +13,6 @@ meu-projeto/
     └── index.md  <-- Página inicial da documentação
 ```
 
-&emsp; Iniciando o servidor de desenvolvimento local:
-
-    mkdocs serve
-
-&emsp; Saída esperada no terminal:
-
-```
-INFO    -  Building documentation...
-INFO    -  Cleaning site directory
-INFO    -  Documentation built in 0.22 seconds
-INFO    -  [15:50:43] Watching paths for changes: 'docs', 'mkdocs.yml'
-INFO    -  [15:50:43] Serving on http://127.0.0.1:8000/
-```
-
-&emsp; Acessando o site localmente, basta abrir no navegador o endereço `http://127.0.0.1:8000/`. Qualquer alteração salva nos arquivos da pasta `docs/` ou no `mkdocs.yml` recarregará a página automaticamente no navegador (Live Reload).
-
 ## Adicionando páginas e configurando a navegação
 &emsp; Para criar novos arquivos de conteúdo, basta adicionar arquivos com extensão `.md` dentro da pasta `docs/`. Exemplo: `docs/about.md` (Página Sobre).
 
@@ -52,3 +36,21 @@ nav:
 1. Menu de Navegação: barra lateral/superior organizada de acordo com a chave `nav`
 2. Botões de Navegação Sequencial: links para "Anterior" (Previous) e "Próximo" (Next)
 3. Busca Interna Automatizada: campo de pesquisa funcional que indexa todo o texto do site sem necessidade de configuração adicional
+
+&emsp; Iniciando o servidor de desenvolvimento local:
+
+    mkdocs serve
+
+&emsp; Saída esperada no terminal:
+
+```
+INFO    -  Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Documentation built in 0.22 seconds
+INFO    -  [15:50:43] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO    -  [15:50:43] Serving on http://127.0.0.1:8000/
+```
+
+&emsp; Acessando o site localmente, basta abrir no navegador o endereço `http://127.0.0.1:8000/`. Qualquer alteração salva nos arquivos da pasta `docs/` ou no `mkdocs.yml` recarregará a página automaticamente no navegador (Live Reload).
+
+
