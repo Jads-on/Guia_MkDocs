@@ -14,7 +14,7 @@
 
 &emsp; Se seu site exceder essas cotas de uso, talvez não possamos atender seu site ou você poderá receber um email Suporte do GitHub sugerindo estratégias para reduzir o impacto do seu site nos servidores do GitHub.
 
-!!! note "Requesito"
+!!! note "Requisitos"
     É obrigatório ter o git instalado. O **Git** é um sistema de controle de versão essencial para publicar e atualizar sua documentação automaticamente no **GitHub Pages** utilizando o comando `mkdocs gh-deploy`. Caso não tenha instale pelo comando: 
     
     - Linux:

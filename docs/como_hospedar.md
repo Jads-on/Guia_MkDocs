@@ -7,10 +7,26 @@
 
 &emsp; Passos no terminal (a partir da branch principal, geralmente `main`):
 
-1. Certifique-se de que o projeto está versionado no Git
+1. Certifique-se de que o projeto está versionado no Git 
+
+    &emsp; Crie um repositório no Github e faça primeiro commit. Na pasta do seu projeto.
+    !!! note "Como versionar o projeto"
+
+        ```git init```
+
+        ```git add .```
+
+        ```git commit -m "Commit inicial da documentação"```
+
+        ```git remote add origin https://github.com/seu-usuario/meu-projeto-mkdocs.git```
+
+        ```git push -u origin main```
+
 2. Execute o comando de deploy automático:
 
-       mkdocs gh-deploy
+    ```
+    mkdocs gh-deploy
+    ```
 
 &emsp; O que o comando faz nos bastidores: compila o site estático, cria/atualiza a branch `gh-pages` e envia (push) as alterações diretamente para o GitHub.
 

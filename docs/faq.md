@@ -1,6 +1,7 @@
 # FAQ
 
-# 1 - erro no comando pip
+# 1 - erro no comando pip 
+## error: externally-managed-environment
 &emsp; Este erro é comum em algumas distros linux, pois elas bloqueiam a instalação direta de pacotes Python via pip. A solução é instalar o Mkdocs em um ambiente isolado via pipx.
 
 &emsp;  No terminal, digite:

@@ -1,4 +1,4 @@
-## Pré-requesitos de instalação
+## Pré-requisitos de instalação
 &emsp; Requisitos do Sistema:
 
 1. Python (versão 3.8 ou superior)

@@ -13,6 +13,7 @@ nav:
   - Estruturando Projeto: estruturando_projeto.md
   - Hospedagem e Github Pages: hospedagem_github_pages.md
   - Como hospedar com o Github Pages?: como_hospedar.md
+  - Glossário: glossario.md
   - FAQ: faq.md
   
 markdown_extensions:
