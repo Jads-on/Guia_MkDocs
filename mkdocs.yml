@@ -4,8 +4,24 @@ site_author: Jadson Lins <jjsl2>
  
 theme:
   name: material
-  pallete:
-    scheme: default
+  palette:
+    # Modo Claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+
+    # Modo Escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
  
 nav:
   - Início: index.md

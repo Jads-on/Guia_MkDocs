@@ -35,7 +35,7 @@ nav:
 
 1. Menu de Navegação: barra lateral/superior organizada de acordo com a chave `nav`
 2. Botões de Navegação Sequencial: links para "Anterior" (Previous) e "Próximo" (Next)
-3. Busca Interna Automatizada: campo de pesquisa funcional que indexa todo o texto do site sem necessidade de configuração adicional
+3. Busca Interna Automatizada: campo de pesquisa funcional que indexa todo o texto do site sem necessidade de configuração adicionals
 
 &emsp; Iniciando o servidor de desenvolvimento local:
 

@@ -26,11 +26,15 @@
 
 !!! note "Observação para usuários do Windows"
     Caso os comandos diretos apresentem erro de caminho (PATH), utilize o prefixo `python -m`:
+    
+    &emsp; Instalando o MkDocs e o Tema Material:
 
-    ```
-    python -m pip install mkdocs mkdocs-material
-    python -m mkdocs --version
-    ```
+        python -m pip install mkdocs mkdocs-material
+
+    &emsp; Verificando a instalação do MkDocs:
+
+        python -m mkdocs --version
+    
 
 ### O que é o "mkdocs-material"?
 &emsp; É o tema visual mais popular e utilizado no ecossistema MkDocs. Adiciona recursos modernos como:
